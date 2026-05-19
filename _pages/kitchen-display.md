@@ -10,6 +10,10 @@ include_in_header: false
 
 # Setting up a kitchen display (KDS)
 
+- [Create a kitchen display](#create-a-kitchen-display)
+- [How to use the kitchen display](#how-to-use-the-kitchen-display)
+- [Troubleshooting](#troubleshooting)
+
 ## Create a kitchen display
 
 Kitchen displays can be any device with a web browser such as iPads, Chromebooks, Smart TVs and laptops. You can also create a Tile within POS linking to the kitchen display URL.

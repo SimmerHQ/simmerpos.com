@@ -10,6 +10,22 @@ include_in_header: false
 
 # Online store setup
 
+- [Enable online store within Simmer](#enable-online-store-within-simmer)
+- [Add a full address to your store location](#add-a-full-address-to-your-store-location)
+- [Add store opening times](#add-store-opening-times)
+- [Add pickup shipping method](#add-pickup-shipping-method)
+- [Add products to the online store channel](#add-products-to-the-online-store-channel)
+- [Add products to Simmer collections](#add-products-to-simmer-collections)
+- [Add modifier selection theme block to product page](#add-modifier-selection-theme-block-to-product-page)
+- [Add delivery method and date picker to cart page](#add-delivery-method-and-date-picker-to-cart-page)
+- [QR code ordering setup (optional)](#qr-code-ordering-setup-optional)
+  - [Enable the Simmer app theme block](#enable-the-simmer-app-theme-block)
+  - [Add dine in shipping method](#add-dine-in-shipping-method)
+- [Limitations](#limitations)
+  - [Accelerated checkout](#accelerated-checkout)
+  - [Drawer cart](#drawer-cart)
+  - [Troubleshooting](#troubleshooting)
+
 ## Enable online store within Simmer
 
 From the Simmer Admin, navigate to **Settings** > **Online store**. Then click **Enable**.

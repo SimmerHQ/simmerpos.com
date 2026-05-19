@@ -10,9 +10,26 @@ include_in_header: false
 
 # Epson ticket printer guide
 
+- [Create a ticket printer](#create-a-ticket-printer)
+  1. [Add printer from the Simmer dashboard](#1-add-printer-from-the-simmer-dashboard)
+  2. [Give your printer a name, brand and select the Shopify location you want to use it in](#2-give-your-printer-a-name-brand-and-select-the-shopify-location-you-want-to-use-it-in)
+  3. [Use the printer's credentials in the following guide on how to configure the printer](#3-use-the-printers-credentials-in-the-following-guide-on-how-to-configure-the-printer)
+- [Configure the Epson printer](#configure-the-epson-printer)
+  1. [Navigate to your printer's LAN address](#1-navigate-to-your-printers-lan-address)
+  2. [Click Advanced Settings](#2-click-advanced-settings)
+  3. [Click Administrator Login (top right)](#3-click-administrator-login-top-right)
+  4. [Enter Printer Serial No. to login](#4-enter-printer-serial-no-to-login)
+  5. [Click TM-i Settings (opens in new tab)](#5-click-tm-i-settings-opens-in-new-tab)
+  6. [Click Server Direct Print](#6-click-server-direct-print)
+  7. [Enable Server Direct Print](#7-enable-server-direct-print)
+  8. [Populate Server 1 with URL, ID, and Password](#8-populate-server-1-with-url-id-and-password)
+  9. [Click Apply & Restart](#9-click-apply--restart)
+  10. [Click OK](#10-click-ok)
+- [Print tickets](#print-tickets)
+
 Simmer currently supports the following Epson printers with **Server Direct Print**:
 
-- Epson TM-DT series, 
+- Epson TM-DT series,
 - Epson TM-i series
 - Epson TM-T88VI
 
@@ -89,4 +106,3 @@ Enter the IP address into your browser to navigate to the printer's settings pag
 You can now print tickets from the Simmer POS tile by going to the ticket and clicking **Send**:
 
 <img src="/assets/epson-admin/send-to-printer.png" alt="Send to printer" class="support-image-large">
-

@@ -10,6 +10,21 @@ include_in_header: false
 
 # Star Micronics printer guide
 
+- [Create a ticket printer](#create-a-ticket-printer)
+  1. [Add printer from the Simmer dashboard](#1-add-printer-from-the-simmer-dashboard)
+  2. [Give your printer a name, brand and select the Shopify location you want to use it in](#2-give-your-printer-a-name-brand-and-select-the-shopify-location-you-want-to-use-it-in)
+  3. [Use the printer's credentials in the following guide on how to configure the printer](#3-use-the-printers-credentials-in-the-following-guide-on-how-to-configure-the-printer)
+- [Configure the Star Micronics printer](#configure-the-star-micronics-printer)
+  1. [Navigate to your printer's LAN address](#1-navigate-to-your-printers-lan-address)
+  2. [Click Login](#2-click-login)
+  3. [Enter your user name and password](#3-enter-your-user-name-and-password)
+  4. [Click CloudPRNT](#4-click-cloudprnt)
+  5. [Enter the URL, ID, and Password provided by Simmer](#5-enter-the-url-id-and-password-provided-by-simmer)
+  6. [Click Submit](#6-click-submit)
+  7. [Click Execute](#7-click-execute)
+  8. [Wait for your printer to restart](#8-wait-for-your-printer-to-restart)
+- [Print tickets](#print-tickets)
+
 Simmer currently supports Star Micronics printers with **CloudPRNT**.
 
 If you are unsure if your printer supports **CloudPRNT** visit the Star Micronics <a href="https://star-emea.com/products/cloudprnt/" target="_blank">website</a> or contact <a href="mailto:help@simmerpos.com">help@simmerpos.com</a>.
@@ -73,10 +88,8 @@ Your printer should print out a receipt with your printer's LAN address. Enter t
 
 <img src="/assets/star-admin/7.png" alt="Restart" class="support-image-large">
 
-
 ## Print tickets
 
 You can now print tickets from the Simmer POS tile by going to the ticket and clicking **Send**:
 
 <img src="/assets/epson-admin/send-to-printer.png" alt="Send to printer" class="support-image-large">
-

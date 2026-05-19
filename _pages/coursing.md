@@ -10,6 +10,10 @@ include_in_header: false
 
 # Coursing
 
+- [How to setup coursing](#how-to-setup-coursing)
+- [How to use coursing](#how-to-use-coursing)
+  - [Sending courses](#sending-courses)
+
 You can use courses to help with meal pacing in your restaurant.
 
 ## How to setup coursing

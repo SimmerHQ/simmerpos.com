@@ -8,10 +8,15 @@ include_in_header: false
   <a href="/">Home</a> &gt; <a href="/support/">Support</a> &gt; Training
 </nav>
 
-
-
-
 # How to use Simmer
+
+- [Staff training video](#staff-training-video)
+- [Step by step guide](#step-by-step-guide)
+  1. [Open the Simmer POS tile](#1-open-the-simmer-pos-tile)
+  2. [Create a ticket](#2-create-a-ticket)
+  3. [Add products to the ticket](#3-add-products-to-the-ticket)
+  4. [Next steps](#4-next-steps)
+  5. [Payment and split bills](#5-payment-and-split-bills)
 
 ## Staff training video
 

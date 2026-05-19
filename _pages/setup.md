@@ -10,6 +10,11 @@ include_in_header: false
 
 # Setting up Simmer
 
+1. [Create the required Simmer collections](#1-create-the-required-simmer-collections)
+2. [Add products to the Simmer tile](#2-add-products-to-the-simmer-tile)
+3. [Add modifiers (optional)](#3-add-modifiers-optional)
+4. [Configure POS](#4-configure-pos)
+
 This guide will walk you through the process of setting up Simmer. If you have any questions, please contact <a href="mailto:help@simmerpos.com">help@simmerpos.com</a>
 
 ### 1. Create the required Simmer collections
