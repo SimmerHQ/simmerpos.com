@@ -91,5 +91,5 @@ Select **Add** for the extension you would like to add to the POS smart grid:
 <img src="/assets/add-tile-step-4.png" alt="Add POS tile step 4" class="support-image">
 
 <div class="note-box">
-<strong>Next step:</strong> Now that you have added the Simmer tile to your POS, you can start creating tickets. Learn how to use Simmer in the <a href="/training/">usage guide</a>.
+<strong>Next step:</strong> Now that you have added the Simmer tile to your POS, you can start taking customer orders. Learn how to use Simmer in the <a href="/training/">usage guide</a>.
 </div>
