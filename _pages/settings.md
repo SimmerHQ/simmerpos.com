@@ -25,8 +25,11 @@ Where you will find the following options:
 
 Enables automatic sending of Simmer tickets to your kitchen displays and printers upon payment completion or adding to cart.
 
+- **On cart** - sends a ticket when the **Add to cart** or **Pay** button is clicked.
+- **On payment** - sends a ticket when payment has been processed.
+
 <div class="note-box">
-  Particularly useful when using the <b>Simmer: Quick Service extension</b> as it lacks the ability to send tickets manually.
+  This can be particularly useful when using the <b>Simmer: Quick Service</b> extension as it lacks the ability to send tickets manually.
 </div>
 
 ## Staff attribution
@@ -58,5 +61,5 @@ Enables inventory checks and warnings for tracked, out of stock products and mod
 Ignores zero cost modifiers when adding tickets to the cart in **Simmer: Full Service**.
 
 <div class="note-box">
-  Useful for hiding free modifiers from customer sales receipts.
+  Useful for hiding free modifiers from customer sales receipts. Currently only available for <b>Simmer: Full Service</b>.
 </div>
