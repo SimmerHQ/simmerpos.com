@@ -72,6 +72,14 @@ For questions, to book a demo or to request a feature, contact <a href="mailto:h
     <h3>Billing</h3>
     <p>Learn how activate billing locations</p>
   </a>
+
+  <a href="/settings/" class="support-tile">
+    <div class="tile-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="48" height="48" fill="currentColor"><path fill-rule="evenodd" d="M9.095 6.25a3.001 3.001 0 0 1 5.81 0h1.345a.75.75 0 0 1 0 1.5h-1.345a3.001 3.001 0 0 1-5.81 0h-5.345a.75.75 0 0 1 0-1.5h5.345Zm1.405.75a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z"/><path fill-rule="evenodd" d="M8 16a3.001 3.001 0 0 0 2.905-2.25h5.345a.75.75 0 0 0 0-1.5h-5.345a3.001 3.001 0 0 0-5.81 0h-1.345a.75.75 0 0 0 0 1.5h1.345a3.001 3.001 0 0 0 2.905 2.25Zm1.5-3a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"/></svg>
+    </div>
+    <h3>Settings</h3>
+    <p>Further customize Simmer's behaviour via Settings</p>
+  </a>
 </div>
 
 ## Tutorial video

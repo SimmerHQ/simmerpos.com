@@ -17,13 +17,13 @@ include_in_header: false
 
 This guide will walk you through the process of setting up Simmer. If you have any questions, please contact <a href="mailto:help@simmerpos.com">help@simmerpos.com</a>
 
-### 1. Create the required Simmer collections
+## 1. Create the required Simmer collections
 
 Start by creating the product grid and modifier collections in your Shopify admin. You will be prompted to create two collections when you first load Simmer within your Shopify admin:
 
 <img src="/assets/create-simmer-collections.png" alt="Create Simmer collections" class="support-image">
 
-### 2. Add products to the Simmer tile
+## 2. Add products to the Simmer tile
 
 First create your products within the Shopify Admin then add products to the Simmer product grid collection. These should be products on your food and drinks menu that you want to show in the Simmer POS tile:
 
@@ -47,7 +47,7 @@ Then select all of your grid products and click **Add**:
 
 <img src="/assets/select-grid-products.png" alt="Add products to collection" class="support-image">
 
-### 3. Add modifiers (optional)
+## 3. Add modifiers (optional)
 
 Modifiers are options that can be added to products such as flavourings and toppings. To add modifiers, create a new product within Shopify and set the collection to 'Simmer: Modifiers'.
 
@@ -61,7 +61,7 @@ You'll now be able to assign the modifier to a product from the Shopify Admin by
 <strong>Note:</strong>  If you can't see the Modifier App Block at the bottom of the product page, you will need to enable it within the App Block section at the bottom of the product page. You will then need to click the pin icon to make the block available for other products.
 </div>
 
-### 4. Configure POS
+## 4. Configure POS
 
 Add the Simmer tile to your Shopify POS home screen.
 
@@ -91,5 +91,5 @@ Select **Add** for the extension you would like to add to the POS smart grid:
 <img src="/assets/add-tile-step-4.png" alt="Add POS tile step 4" class="support-image">
 
 <div class="note-box">
-<strong>Next step:</strong> Now that you have added the Simmer tile to your POS, you can start taking customer orders. Learn how to use Simmer in the <a href="/training/">usage guide</a>.
+  <strong>Next step:</strong> Now that you have added the Simmer tile to your POS, you can start taking customer orders. Learn how to use Simmer in the <a href="/training/">usage guide</a>.
 </div>
