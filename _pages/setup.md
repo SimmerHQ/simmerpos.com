@@ -77,7 +77,16 @@ Then select **Simmer**:
 
 <img src="/assets/add-tile-step-3.png" alt="Add POS tile step 3" class="support-image">
 
-Then select **Add**:
+Here you are given two extension options to select from:
+
+- **Simmer: Full Service** - Full service restaurant focused, includes ticketing, table management, and coursing, intended for restaurants and cafes with table service.
+- **Simmer: Quick Service** - Quick service restaurant focused, selected items are added directly to the cart for immediate payment and processing, intended for restaurants and cafes with counter service.
+
+<div class="note-box">
+  <strong>Note:</strong> You are welcome to use both extensions on your POS if you like, feel free to mix and match to suit your workflow.
+</div>
+
+Select **Add** for the extension you would like to add to the POS smart grid:
 
 <img src="/assets/add-tile-step-4.png" alt="Add POS tile step 4" class="support-image">
 
