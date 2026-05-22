@@ -163,6 +163,10 @@ You will be taken to your currently active online store theme where you will be 
 
 - **Process all orders as tickets**: enable this so all orders that come in via your online store will be processed by Simmer and turned into tickets.
 
+### Update the "Auto send" setting
+
+From the Shopify Admin, navigate to **Simmer** > **Settings** where you will find a sections titled **Auto send**, update this setting to **On payment**.
+
 ## Limitations
 
 ### Accelerated checkout
