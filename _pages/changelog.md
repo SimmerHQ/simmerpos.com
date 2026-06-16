@@ -22,6 +22,34 @@ include_in_header: true
   -->
 
   <div class="changelog-item">
+    <div class="date">June 2026</div>
+    <ul>
+      <li class="feature-release">
+        <strong>⭐️ Service point position numbers 🚀</strong><br><br>
+        Simmer now supports position numbers for service points. Configure the number of positions (for example, seats at a table), then assign individual ticket line items to those positions when taking orders.<br>
+        Position information is sent to your KDS and printers, allowing staff to see which position (such as a seat) each item belongs to.<br>
+        Go to <b>Table management</b> in the Simmer dashboard to learn more.
+      </li>
+      <li>
+        <strong>KDS font size:</strong>
+        Added an option to the KDS to allow for varying its font size.
+      </li>
+      <li>
+        <strong>KDS hide sequence numbers:</strong>
+        Added an option to the KDS to allow for hiding ticket sequence numbers if desired, showing just the Shopify Orders number instead, if present.
+      </li>
+      <li>
+        <strong>Improved KDS fulfill on Ready feature:</strong>
+        The KDS fulfill when ready option now triggers a fulfill regardless of the ticket's method type, previously it was only triggered when the ticket was for a takeout order.
+      </li>
+      <li>
+        <strong>Simmer Quick Service - better custom sale item handling:</strong>
+        Simmer Quick Service now better handles custom sale items when the auto send option is set to "On cart".
+      </li>
+    </ul>
+  </div>
+
+  <div class="changelog-item">
     <div class="date">May 2026</div>
     <ul>
       <li class="feature-release">
@@ -33,6 +61,10 @@ include_in_header: true
       <li>
         <strong>Implement Autosend - "On cart" in Simmer Quick Service:</strong>
         The <b>On cart</b> autosend option is now compatible with the Simmer: Quick Service extension!
+      </li>
+      <li>
+        <strong>KDS visual improvements:</strong>
+        Changed the visual styling of modifiers, variants, and line item customer names so that they are visually distinct.
       </li>
     </ul>
   </div>
