@@ -45,12 +45,12 @@ include_in_header: true
     <ul>
       <li class="feature-release">
         <strong>⭐️ New Right-Hand Ticket Preview 🚀</strong><br><br>
-        To make better use of your tablet's screen space, we will be moving the ticket preview panel from the top of the screen over to the right-hand side.<br>
+        To make better use of your tablet's screen space, we have moved the ticket preview panel from the top of the screen over to the right-hand side.<br>
         This new side panel has been extended so your staff can now see a full list of ticket line items and the status of the ticket without jumping between screens.
       </li>
       <li class="feature-release">
         <strong>⭐️ Line Item Editing 🚀</strong><br><br>
-        No more deleting and re-adding items just to change a product modifier or variant. You will soon be able to edit existing ticket line items directly within Simmer.<br>
+        No more deleting and re-adding items just to change a product modifier or variant. You are now able to edit existing ticket line items directly within Simmer.<br>
         Select any line item directly from the new right-hand ticket preview panel or the existing ticket details page to change quantities, modifiers or variants instantly.
       </li>
       <li>
