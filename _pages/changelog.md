@@ -37,6 +37,10 @@ include_in_header: true
         <strong>Optional Search tile in POS:</strong>
         Added a setting to enable or disable the <b>Search</b> tile in the POS product grid.
       </li>
+      <li>
+        <strong>Option to sound printer buzzer on print:</strong>
+        Added a setting to enable or disable the addition of a printer buzzer command, which will sound to notify that a ticket has been printed when there is an attached buzzer.
+      </li>
     </ul>
   </div>
 
