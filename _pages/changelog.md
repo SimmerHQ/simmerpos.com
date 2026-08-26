@@ -9,17 +9,72 @@ include_in_header: true
 # Changelog
 
 <div class="changelog">
-  <!--
+
   <div class="changelog-item">
     <div class="date">Coming Soon</div>
     <ul>
       <li class="feature-release up-next">
-      <strong>⏳ </strong><br><br>
-        <br><br>
+        <strong>⏳ Local Printing API</strong><br><br>
+        Simmer will soon allow merchants to print directly to their Shopify POS connected printer, reducing delay and improving reliability.<br>
+        This new printer type can be configured via the <b>Display and printers</b> section in the Simmer dashboard, look for the <b>Local printer (Shopify POS Connected)</b> printer option.<br>
+        You can try this out now via our <b>Simmer: Preview</b> extension in Shopify POS.
       </li>
     </ul>
   </div>
-  -->
+
+  <div class="changelog-item">
+    <div class="date">August 2026</div>
+    <ul>
+      <li>
+        <strong>Multi-location KDS:</strong>
+        Simmer now supports multi-location Kitchen Displays (KDS), making it easier to run kitchen workflows across multiple Shopify locations.
+      </li>
+      <li>
+        <strong>Default customer support on POS:</strong>
+        Added support for configuring a <b>default customer</b> so new tickets can start with a preselected customer if required.
+      </li>
+      <li>
+        <strong>Optional Search tile in POS:</strong>
+        Added a setting to enable or disable the <b>Search</b> tile in the POS product grid.
+      </li>
+    </ul>
+  </div>
+
+  <div class="changelog-item">
+    <div class="date">July 2026</div>
+    <ul>
+      <li class="feature-release">
+        <strong>⭐️ New Right-Hand Ticket Preview 🚀</strong><br><br>
+        To make better use of your tablet's screen space, we will be moving the ticket preview panel from the top of the screen over to the right-hand side.<br>
+        This new side panel has been extended so your staff can now see a full list of ticket line items and the status of the ticket without jumping between screens.
+      </li>
+      <li class="feature-release">
+        <strong>⭐️ Line Item Editing 🚀</strong><br><br>
+        No more deleting and re-adding items just to change a product modifier or variant. You will soon be able to edit existing ticket line items directly within Simmer.<br>
+        Select any line item directly from the new right-hand ticket preview panel or the existing ticket details page to change quantities, modifiers or variants instantly.
+      </li>
+      <li>
+        <strong>Shopify POS platform upgrade:</strong>
+        Updated the underlying extension platform for improved consistency and long-term maintainability.
+      </li>
+      <li>
+        <strong>Simmer: Preview</strong>
+        Released the new 'Preview' extension for testing upcoming features ahead of release.
+      </li>
+      <li>
+        <strong>POS small-screen layout improvements:</strong>
+        Improved the layout and navigation on smaller tablets and phones.
+      </li>
+      <li>
+        <strong>KDS & CDS resilience improvements:</strong>
+        Added clearer error messaging on kitchen and customer displays and improved error handling flows.
+      </li>
+      <li>
+        <strong>Device cache performance improvements:</strong>
+        Improved ticket cache loading and history handling, improving the load times of the POS extensions.
+      </li>
+    </ul>
+  </div>
 
   <div class="changelog-item">
     <div class="date">June 2026</div>
@@ -29,6 +84,14 @@ include_in_header: true
         Simmer now supports position numbers for service points. Configure the number of positions (for example, seats at a table), then assign individual ticket line items to those positions when taking orders.<br>
         Position information is sent to your KDS and printers, allowing staff to see which position (such as a seat) each item belongs to.<br>
         Go to <b>Table management</b> in the Simmer dashboard to learn more.
+      </li>
+      <li>
+        <strong>Online store Baseline theme support:</strong>
+        Added support for the Baseline theme in the online store integration.
+      </li>
+      <li>
+        <strong>Improved cart handling reliability for very large carts:</strong>
+        Added extra safeguards to Simmer's cart handling to better handle very large carts.
       </li>
       <li>
         <strong>KDS font size:</strong>
