@@ -10,14 +10,69 @@ include_in_header: true
 
 <div class="changelog">
 
+  <!--
   <div class="changelog-item">
     <div class="date">Coming Soon</div>
     <ul>
       <li class="feature-release up-next">
-        <strong>⏳ Local Printing API</strong><br><br>
-        Simmer will soon allow merchants to print directly to their Shopify POS connected printer, reducing delay and improving reliability.<br>
-        This new printer type can be configured via the <b>Display and printers</b> section in the Simmer dashboard, look for the <b>Local printer (Shopify POS Connected)</b> printer option.<br>
-        You can try this out now via our <b>Simmer: Preview</b> extension in Shopify POS.
+        <strong>⏳ Feature name</strong><br><br>
+        Description of the upcoming feature.
+      </li>
+    </ul>
+  </div>
+  -->
+
+  <div class="changelog-item">
+    <div class="date">October 2026</div>
+    <ul>
+      <li class="feature-release">
+        <strong>⭐️ Service Charges 🚀</strong><br><br>
+        Simmer now supports service charges — extra fixed or percentage amounts added to a cart on specific weekdays or dates, for example public holidays or a weekend surcharge.<br>
+        Charges appear as a line item on the resulting Shopify order and on customer receipts, and can optionally have sales tax applied.
+      </li>
+      <li>
+        <strong>Product Grid Pagination:</strong>
+        The POS product grid and collection screens now paginate large catalogues with a <b>Load more</b> button, so shops with thousands of products load faster and scroll more smoothly.
+      </li>
+      <li>
+        <strong>POS caching improvements:</strong>
+        Reworked how products and collections are cached on the POS, improving load times when browsing and switching between grids and collections.
+      </li>
+      <li>
+        <strong>Reduced Shopify API throttling:</strong>
+        Improved how Simmer handles Shopify API rate limits so busy shops are less likely to see slowdowns during peak trading.
+      </li>
+    </ul>
+  </div>
+
+  <div class="changelog-item">
+    <div class="date">September 2026</div>
+    <ul>
+      <li class="feature-release">
+        <strong>⭐️ Local Printing 🚀</strong><br><br>
+        Simmer now prints directly to your Shopify POS connected printer, reducing delay and improving reliability.<br>
+        Configure it as the <b>Local printer (Shopify POS Connected)</b> printer type in the <b>Display and printers</b> section of the Simmer dashboard.
+      </li>
+      <li class="feature-release">
+        <strong>⭐️ Service point QR codes 🚀</strong><br><br>
+        Generate, copy and download a QR code for each service point from the <b>Table management</b> area of the Simmer dashboard.<br>
+        When dine-in ordering is enabled in your online store settings, customers can scan the code to place an order that is automatically linked to the correct table.
+      </li>
+      <li>
+        <strong>Enforce online store opening hours:</strong>
+        Added a per-location option to enforce your opening hours, preventing online orders from being placed outside those hours. Set your opening days and hours for each location in the <b>Online store</b> settings.
+      </li>
+      <li>
+        <strong>Ticket actions tab in POS:</strong>
+        The ticket preview now has a dedicated <b>Actions</b> tab, grouping actions such as cancelling a ticket together in one place.
+      </li>
+      <li>
+        <strong>Dashboard translations:</strong>
+        The Simmer dashboard is now localised, with support for German, Spanish and French.
+      </li>
+      <li>
+        <strong>Real-time kitchen &amp; customer display updates:</strong>
+        Kitchen and customer displays now update instantly over a live connection when a ticket changes, instead of waiting for the next refresh.
       </li>
     </ul>
   </div>
