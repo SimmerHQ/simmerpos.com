@@ -19,7 +19,7 @@ Select your printer brand to view the setup guide:
   </a>
   <a href="/printer-star" class="support-tile">
     <h3>Star Micronics Guide</h3>
-    <p>Learn how to set up your Star Micronics printer</p>  
+    <p>Learn how to set up your Star Micronics printer</p>
   </a>
 </div>
 
@@ -28,6 +28,6 @@ Select your printer brand to view the setup guide:
 <div class="support-tiles">
   <a href="/printer-local" class="support-tile">
     <h3>Local printers</h3>
-    <p>Learn how to set up AirPrint (iOS) or system print dialog (Android)</p>
+    <p>Learn how to print directly to the receipt printer connected to your Shopify POS device</p>
   </a>
 </div>

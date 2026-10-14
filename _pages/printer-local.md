@@ -11,28 +11,32 @@ include_in_header: false
 # Local printers
 
 1. [Add printer from the Simmer dashboard](#1-add-printer-from-the-simmer-dashboard)
-2. [Select the printer type "Local printer (iOS/Android)"](#2-select-the-printer-type-local-printer-iosandroid)
-3. [From within the Simmer POS extension click "Send" on the ticket you want to print](#3-from-within-the-simmer-pos-extension-click-send-on-the-ticket-you-want-to-print)
-4. [Then select "Print" from the print dialog](#4-then-select-print-from-the-print-dialog)
+2. [Select the printer type "Local printer (Shopify POS Connected)"](#2-select-the-printer-type-local-printer-shopify-pos-connected)
+3. [Enter the printer's device name (Optional)](#3-enter-the-printers-device-name-optional)
+4. [From within the Simmer POS extension click "Send" on the ticket you want to print](#4-from-within-the-simmer-pos-extension-click-send-on-the-ticket-you-want-to-print)
 
-Learn how to set up AirPrint (iOS) or system print dialog (Android) printers.
+Print directly to the receipt printer connected to your Shopify POS device, with no extra print dialog.
 
 <div class="note-box">
-<strong>Note:</strong> This printing method does not support the printer attached to your POS using the printer settings within Shopify POS and should only be used if you don't have a network compatible printer as it adds an extra step to the printing process.
+<strong>Note:</strong> This printing method prints to the receipt printer set up within Shopify POS (Connectivity &gt; Receipt printer). If you don't have a POS-connected receipt printer, Simmer will fall back to the device's system print dialog (for example AirPrint on iOS or the Android print service).
 </div>
 
 ### 1. Add printer from the Simmer dashboard:
 
 <img src="/assets/epson-admin/add-printer.png" alt="Add printer" class="support-image">
 
-### 2. Select the printer type "Local printer (iOS/Android)"
+### 2. Select the printer type "Local printer (Shopify POS Connected)"
 
 <img src="/assets/local-printer/select-printer-type.png" alt="Select printer type" class="support-image">
 
-### 3. From within the Simmer POS extension click "Send" on the ticket you want to print.
+### 3. Enter the printer's device name (Optional)
+
+Enter the printer's <b>Device name</b> exactly as it appears on Shopify POS under <b>Connectivity</b> &gt; <b>Receipt printer</b> &gt; <b>Device name</b> (for example "Star TSP143" or "Front Counter Printer").
+
+If more than one receipt printer is connected to the device, the device name ensures tickets are sent to the correct one. If left blank, the first available printer is used.
+
+### 4. From within the Simmer POS extension click "Send" on the ticket you want to print.
 
 <img src="/assets/local-printer/send-to-printer.png" alt="Send ticket" class="support-image">
 
-### 4. Then select "Print" from the print dialog.
-
-<img src="/assets/local-printer/print-dialog.png" alt="Print dialogue" class="support-image">
+The ticket will print straight to your connected receipt printer.
