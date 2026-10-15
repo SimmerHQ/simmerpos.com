@@ -23,19 +23,13 @@ include_in_header: true
   -->
 
   <div class="changelog-item">
-    <div class="date">Coming Soon</div>
-    <ul>
-      <li class="feature-release up-next">
-        <strong>⏳ Modifier Quantities</strong><br><br>
-        Modifiers will soon support per-option quantities, so staff and online store customers can choose a quantity for each selected modifier, for example <b>Extra hot x 3</b>.<br>
-        Modifier quantities will flow through to the POS, online store, printed tickets and the KDS. Plus your existing modifier min / max limits will apply to the total quantity.
-      </li>
-    </ul>
-  </div>
-
-  <div class="changelog-item">
     <div class="date">October 2026</div>
     <ul>
+      <li class="feature-release">
+        <strong>⭐️ Modifier Quantities 🚀</strong><br><br>
+        Modifiers now support per-option quantities, so staff and online store customers can choose a quantity for each selected modifier, for example <b>"Extra shot x 3"</b>.<br>
+        Modifier quantities flow through to the POS, Online Store, kitchen tickets and displays. Plus your existing modifier min / max limits apply to the total quantity.
+      </li>
       <li class="feature-release">
         <strong>⭐️ Service Charges 🚀</strong><br><br>
         Simmer now supports service charges — extra fixed or percentage amounts added to a cart on specific weekdays or dates, for example public holidays or a weekend surcharge.<br>
