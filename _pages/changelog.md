@@ -35,6 +35,15 @@ include_in_header: true
         Simmer now supports service charges — extra fixed or percentage amounts added to a cart on specific weekdays or dates, for example public holidays or a weekend surcharge.<br>
         Charges appear as a line item on the resulting Shopify order and on customer receipts, and can optionally have sales tax applied.
       </li>
+      <li class="feature-release">
+        <strong>⭐️ Restrict Ticket Actions 🚀</strong><br><br>
+        You can now set an optional PIN to protect destructive ticket actions. When enabled, staff must enter the PIN before deleting a line item from an existing ticket or cancelling a ticket in Simmer: Full Service.<br>
+        Set, change or remove the PIN from the <b>Settings</b> area of the Simmer dashboard.
+      </li>
+      <li>
+        <strong>Local printer improvements:</strong>
+        Local printing is now supported in Simmer: Quick Service, and each local printer can be set to <b>58mm</b> or <b>80mm</b> paper so receipts print at the full width of your roll. Printing is also more reliable, with clearer messages if a printer isn't available or a print attempt times out.
+      </li>
       <li>
         <strong>Product Grid Pagination:</strong>
         The POS product grid and collection screens now paginate large catalogues with a <b>Load more</b> button, so shops with thousands of products load faster and scroll more smoothly.
@@ -46,6 +55,10 @@ include_in_header: true
       <li>
         <strong>Reduced Shopify API throttling:</strong>
         Improved how Simmer handles Shopify API rate limits so busy shops are less likely to see slowdowns during peak trading.
+      </li>
+      <li>
+        <strong>Billing reliability:</strong>
+        Fixed some failures associated with the Admin Billing page.
       </li>
     </ul>
   </div>
@@ -74,6 +87,14 @@ include_in_header: true
       <li>
         <strong>Dashboard translations:</strong>
         The Simmer dashboard is now localised, with support for German, Spanish and French.
+      </li>
+      <li>
+        <strong>Ticket location filter:</strong>
+        The ticket management area of the Simmer dashboard now includes a location filter, making it easier to find tickets for a specific Shopify location.
+      </li>
+      <li>
+        <strong>Cancel subscription from the dashboard:</strong>
+        Added a link in the Simmer dashboard billing area with instruction on how to cancel your Simmer subscription.
       </li>
       <li>
         <strong>Real-time kitchen &amp; customer display updates:</strong>

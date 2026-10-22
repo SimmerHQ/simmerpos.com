@@ -1,0 +1,96 @@
+<section id="reviews" class="reviews">
+  <h2 class="features-title">
+    All you need to run your <span id="business-type">coffee shop</span
+    ><span class="cursor">|</span> on Shopify
+  </h2>
+
+  <div class="reviews-carousel">
+    <button
+      class="reviews-nav reviews-prev"
+      type="button"
+      aria-label="Previous reviews"
+      aria-controls="reviews-track"
+    >
+      &#8249;
+    </button>
+
+    <div class="reviews-track" id="reviews-track" tabindex="0">
+      {% for review in site.data.reviews %}
+      <a
+        class="review-card"
+        href="{{ review.url }}"
+        target="_blank"
+        rel="noopener"
+        aria-label="Show the full review from {{ review.author }} on the Shopify App Store"
+      >
+        <div class="review-stars" role="img" aria-label="5 out of 5 stars">
+          <span aria-hidden="true">★★★★★</span>
+        </div>
+        <blockquote>{{ review.quote }}</blockquote>
+        <div class="review-author">
+          <strong>{{ review.author }}</strong>
+          <span>{{ review.location }} &middot; {{ review.date }}</span>
+        </div>
+        <span class="review-card-link">Show more</span>
+      </a>
+      {% endfor %}
+    </div>
+
+    <button
+      class="reviews-nav reviews-next"
+      type="button"
+      aria-label="Next reviews"
+      aria-controls="reviews-track"
+    >
+      &#8250;
+    </button>
+  </div>
+</section>
+
+<script>
+  (function () {
+    var track = document.getElementById("reviews-track");
+    if (!track) return;
+
+    var carousel = track.closest(".reviews-carousel");
+    var prev = carousel.querySelector(".reviews-prev");
+    var next = carousel.querySelector(".reviews-next");
+
+    var step = function () {
+      var card = track.querySelector(".review-card");
+      if (!card) return track.clientWidth;
+      var gap = parseFloat(getComputedStyle(track).columnGap) || 0;
+      return card.offsetWidth + gap;
+    };
+
+    var update = function () {
+      var maxScroll = track.scrollWidth - track.clientWidth - 1;
+      prev.disabled = track.scrollLeft <= 0;
+      next.disabled = track.scrollLeft >= maxScroll;
+    };
+
+    prev.addEventListener("click", function () {
+      track.scrollBy({ left: -step(), behavior: "smooth" });
+    });
+
+    next.addEventListener("click", function () {
+      track.scrollBy({ left: step(), behavior: "smooth" });
+    });
+
+    track.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", update);
+
+    // Keyboard support when the track itself has focus.
+    track.addEventListener("keydown", function (event) {
+      if (event.key === "ArrowRight") {
+        event.preventDefault();
+        track.scrollBy({ left: step(), behavior: "smooth" });
+      } else if (event.key === "ArrowLeft") {
+        event.preventDefault();
+        track.scrollBy({ left: -step(), behavior: "smooth" });
+      }
+    });
+
+    update();
+  })();
+</script>

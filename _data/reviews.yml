@@ -1,0 +1,71 @@
+# Curated 5 star reviews from the Shopify App Store.
+# Source: https://apps.shopify.com/simmer/reviews?ratings%5B%5D=5
+# Shopify does not provide a public reviews API, so quotes are copied here when
+# they are published. Keep quotes to complete sentences and keep the author,
+# location and month accurate.
+#
+# `url` points at the individual review on the App Store. Shopify anchors each
+# review as #review-<id>, but anchors only work on the page the review is
+# currently shown on, so the url includes &page= as well. If a review drops off
+# page 1 as newer reviews arrive, update its &page= and re-copy the id (inspect
+# the review element in the browser: id="review-<id>").
+
+- quote: "We found Simmer when it first came out and have been using it ever since. It has come a long way and continues to improve with each update."
+  author: Shady Brook Farm
+  location: United States
+  date: September 2026
+  url: https://apps.shopify.com/simmer/reviews?ratings%5B%5D=5&page=1#review-2371164
+
+- quote: "Our Shopify website and POS has been live for about a month and a half, and Simmer has been one of our most used, and valuable apps! It makes user navigation easy, especially with our complex business."
+  author: MQT Nutrition
+  location: United States
+  date: September 2026
+  url: https://apps.shopify.com/simmer/reviews?ratings%5B%5D=5&page=1#review-2345370
+
+- quote: "Excellent support service has made this app a great partner for our small business!"
+  author: Mikkelson's Market
+  location: United States
+  date: August 2026
+  url: https://apps.shopify.com/simmer/reviews?ratings%5B%5D=5&page=1#review-2339732
+
+- quote: "Simon was absolutely fantastic in supporting us, super helpful and responsive!"
+  author: Yeovil Town Football Club
+  location: United Kingdom
+  date: August 2026
+  url: https://apps.shopify.com/simmer/reviews?ratings%5B%5D=5&page=1#review-2333926
+
+- quote: "My wife and I have so appreciated Simon's expertise and patience. He went out of his way to support our small business as we created a mobile ordering system using Simmer and Shopify."
+  author: Conversatio Coffee Roasters
+  location: United States
+  date: August 2026
+  url: https://apps.shopify.com/simmer/reviews?ratings%5B%5D=5&page=1#review-2317555
+
+- quote: "Simmer is a great application that is very easy to use, with a friendly and intuitive user interface. The overall experience has been smooth and simple from the beginning."
+  author: CookLy
+  location: Australia
+  date: June 2026
+  url: https://apps.shopify.com/simmer/reviews?ratings%5B%5D=5&page=1#review-2250199
+
+- quote: "The team at Simmer have been extremely responsive in helping us to get the most out of this app. We've worked closely with Simon to get a more unified POS solution set up for our Cellar Door and Restaurant, and when we've needed support it has been quick and effective."
+  author: Maxwell Wines
+  location: Australia
+  date: April 2026
+  url: https://apps.shopify.com/simmer/reviews?ratings%5B%5D=5&page=1#review-2170929
+
+- quote: "We've been using Simmer at a few different Shopify POS locations for a little while now for both the KDS and the modifiers. It's a solid product, and the development team has been making improvements quickly over the past several months."
+  author: Ramseyer Farms
+  location: United States
+  date: September 2025
+  url: https://apps.shopify.com/simmer/reviews?ratings%5B%5D=5&page=1#review-1881852
+
+- quote: "Simmer served as a friendly to use service for a large event. We needed a simple but effective solution for eight food stands. With very little time, the team helped greatly with a smooth onboarding process and was by our side the entire journey."
+  author: Madhappy
+  location: United States
+  date: June 2025
+  url: https://apps.shopify.com/simmer/reviews?ratings%5B%5D=5&page=1#review-1775149
+
+- quote: "Migrating from Square to Shopify I was shocked by how many basic features are missing on Shopify. Then I found Simmer. This app is indispensable! So well thought out when it comes to both features and execution. Works flawlessly on both iPads and Android phones."
+  author: Buckabee Brownies
+  location: United States
+  date: June 2025
+  url: https://apps.shopify.com/simmer/reviews?ratings%5B%5D=5&page=1#review-1769056
